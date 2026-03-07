@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Navigation Menu</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f2f2f2;
+}
+
+/* Navigation bar */
+
+.navbar{
+position:fixed;
+top:40px;
+left:50%;
+transform:translateX(-50%);
+width:70%;
+padding:15px;
+border-radius:10px;
+
+background:linear-gradient(to right,#2b5bd7,#7fc6da);
+}
+
+/* Menu */
+
+.navbar ul{
+list-style:none;
+display:flex;
+justify-content:space-around;
+margin:0;
+padding:0;
+}
+
+.navbar ul li a{
+text-decoration:none;
+font-size:20px;
+color:white;
+padding:10px;
+transition:0.3s;
+}
+
+/* Hover effect */
+
+.navbar ul li a:hover{
+color:#ffd34d;
+}
+
+/* Active menu */
+
+.active{
+color:#ffd34d;
+
+}
+
+/* Scroll text */
+
+.text{
+text-align:center;
+font-size:60px;
+margin-top:250px;
+color:#111;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="navbar">
+<ul>
+<li><a class="active" href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+
+<h1 class="text">Scroll Down</h1>
+
+</body>
+</html>
