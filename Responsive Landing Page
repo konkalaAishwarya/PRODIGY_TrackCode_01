@@ -10,9 +10,6 @@ margin:0;
 font-family:Arial;
 background:#f2f2f2;
 }
-
-/* Navigation bar */
-
 .navbar{
 position:fixed;
 top:40px;
@@ -24,9 +21,6 @@ border-radius:10px;
 
 background:linear-gradient(to right,#2b5bd7,#7fc6da);
 }
-
-/* Menu */
-
 .navbar ul{
 list-style:none;
 display:flex;
@@ -43,20 +37,14 @@ padding:10px;
 transition:0.3s;
 }
 
-/* Hover effect */
-
 .navbar ul li a:hover{
 color:#ffd34d;
 }
-
-/* Active menu */
 
 .active{
 color:#ffd34d;
 
 }
-
-/* Scroll text */
 
 .text{
 text-align:center;
@@ -83,4 +71,5 @@ color:#111;
 <h1 class="text">Scroll Down</h1>
 
 </body>
+
 </html>
